@@ -1,0 +1,12 @@
+{
+  "visible_filenames": [
+    "YahtzeeTest.java",
+    "Yahtzee.java",
+    "instructions",
+    "cyber-dojo.sh"
+  ],
+  "filename_extension" : ".java",
+  "display_name": "Seed step 0: setup environment environment",
+  "unit_test_framework": "junit",
+  "image_name": "cyberdojofoundation/java_junit"
+}
