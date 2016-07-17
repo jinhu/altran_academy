@@ -6,7 +6,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".py",
-  "display_name": "User experience, prototype",
+  "display_name": "Connectivity workshop 4 firebase",
   "unit_test_framework": "python_unittest",
   "image_name": "cyberdojofoundation/python_unittest"
 }

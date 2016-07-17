@@ -6,7 +6,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".java",
-  "display_name": "Seed step 1: review a task from a collegue",
+  "display_name": "Seed 3 unit test",
   "unit_test_framework": "junit",
   "image_name": "cyberdojofoundation/java_junit"
 }
