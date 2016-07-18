@@ -6,7 +6,19 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".rb",
-  "display_name": "Behavior Driven Development workshop alternative flow",
-  "unit_test_framework": "ruby_test_unit",
+  "display_name": "Behavior Driven Development workshop, 5 alternative flow",
+
+  "progress_regexs": [
+    "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",
+    "OK \\((\\d)+ test(s)?\\)"
+  ],
+
+  "red_amber_green" : [
+    "lambda { |output|",
+    "  return :red   if /^Tests run: (\\d*),(\\s)+Failures: (\\d*)/.match(output)",
+    "  return :green if /^OK \\((\\d*) test/.match(output)",
+    "  return :amber",
+    "}"
+  ],
   "image_name": "cyberdojofoundation/ruby_test_unit"
 }

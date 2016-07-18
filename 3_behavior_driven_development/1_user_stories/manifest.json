@@ -9,7 +9,19 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".cs",
-  "display_name": "Behavior Driven Development workshop 1  user stories",
-  "unit_test_framework": "nunit",
+  "display_name": "Behavior Driven Development workshop, 1 user stories",
+
+  "progress_regexs": [
+    "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",
+    "OK \\((\\d)+ test(s)?\\)"
+  ],
+
+  "red_amber_green" : [
+    "lambda { |output|",
+    "  return :red   if /^Tests run: (\\d*),(\\s)+Failures: (\\d*)/.match(output)",
+    "  return :green if /^OK \\((\\d*) test/.match(output)",
+    "  return :amber",
+    "}"
+  ],
   "image_name": "cyberdojofoundation/csharp_nunit"
 }

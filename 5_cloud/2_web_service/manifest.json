@@ -8,7 +8,19 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".cpp",
-  "display_name": "Cloud workshop 2 web service",
-  "unit_test_framework": "cassert",
+  "display_name": "Cloud workshop, 2 web service",
+
+  "progress_regexs": [
+    "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",
+    "OK \\((\\d)+ test(s)?\\)"
+  ],
+
+  "red_amber_green" : [
+    "lambda { |output|",
+    "  return :red   if /^Tests run: (\\d*),(\\s)+Failures: (\\d*)/.match(output)",
+    "  return :green if /^OK \\((\\d*) test/.match(output)",
+    "  return :amber",
+    "}"
+  ],
   "image_name": "cyberdojofoundation/gpp_assert"
 }

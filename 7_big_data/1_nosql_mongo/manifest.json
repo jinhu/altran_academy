@@ -6,7 +6,19 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".cs",
-  "display_name": "Big Data workshop 1 nosql",
-  "unit_test_framework": "nunit",
-  "image_name": "cyberdojofoundation/csharp_nunit"
+  "display_name": "Big Data workshop, 1 nosql",
+  "image_name": "cyberdojofoundation/csharp_nunit",
+
+  "progress_regexs": [
+    "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",
+    "OK \\((\\d)+ test(s)?\\)"
+  ],
+
+  "red_amber_green" : [
+    "lambda { |output|",
+    "  return :red   if /^Tests run: (\\d*),(\\s)+Failures: (\\d*)/.match(output)",
+    "  return :green if /^OK \\((\\d*) test/.match(output)",
+    "  return :amber",
+    "}"
+  ]
 }

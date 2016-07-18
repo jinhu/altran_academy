@@ -6,7 +6,19 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".java",
-  "display_name": "Embedded Device workshop 3 temperature sensor",
-  "unit_test_framework": "junit",
+  "display_name": "Embedded Device workshop, 3 temperature sensor",
+
+  "progress_regexs": [
+    "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",
+    "OK \\((\\d)+ test(s)?\\)"
+  ],
+
+  "red_amber_green" : [
+    "lambda { |output|",
+    "  return :red   if /^Tests run: (\\d*),(\\s)+Failures: (\\d*)/.match(output)",
+    "  return :green if /^OK \\((\\d*) test/.match(output)",
+    "  return :amber",
+    "}"
+  ],
   "image_name": "cyberdojofoundation/java_junit"
 }

@@ -1,12 +1,12 @@
 {
   "visible_filenames": [
-    "YahtzeeTest.java",
-    "Yahtzee.java",
+    "test_yahtzee.py",
+    "yahtzee.py",
     "instructions",
     "cyber-dojo.sh"
   ],
-  "filename_extension" : ".java",
-  "display_name": "Seed, 4 code check",
+  "filename_extension" : ".py",
+  "display_name": "Reasoning engine workshop, 5 machine learning",
 
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",
@@ -20,5 +20,5 @@
     "  return :amber",
     "}"
   ],
-  "image_name": "cyberdojofoundation/java_junit"
+  "image_name": "cyberdojofoundation/python_unittest"
 }
