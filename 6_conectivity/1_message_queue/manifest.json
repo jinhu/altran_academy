@@ -6,7 +6,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".cs",
-  "display_name": "Connectivity workshop, 1 message queue",
+  "display_name": "6 Connectivity workshop, 1 message queue",
 
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",

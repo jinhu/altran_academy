@@ -6,7 +6,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".rb",
-  "display_name": "Behavior Driven Development workshop, 5 alternative flow",
+  "display_name": "3 Behavior Driven Development workshop, 5 alternative flow",
 
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",

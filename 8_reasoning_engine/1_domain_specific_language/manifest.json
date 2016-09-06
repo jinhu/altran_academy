@@ -6,7 +6,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".cs",
-  "display_name": "Reasoning engine workshop, 1 DSL",
+  "display_name": "8 Reasoning engine workshop, 1 DSL",
 
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",

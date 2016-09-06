@@ -6,7 +6,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".py",
-  "display_name": "User eXperience workshop, 4 prototype",
+  "display_name": "4 User eXperience workshop, 4 prototype",
 
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",

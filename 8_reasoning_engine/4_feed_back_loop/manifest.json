@@ -6,7 +6,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".py",
-  "display_name": "Reasoning engine workshop, 4 feedback loop",
+  "display_name": "8 Reasoning engine workshop, 4 feedback loop",
 
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",

@@ -8,7 +8,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".cpp",
-  "display_name": "Cloud workshop, 2 web service",
+  "display_name": "5 Cloud workshop, 2 web service",
 
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",

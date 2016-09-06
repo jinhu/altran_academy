@@ -1,15 +1,12 @@
 {
   "visible_filenames": [
-    "TennisGame.cs",
-    "TennisGame1.cs",
-    "TennisGame2.cs",
-    "TennisGame3.cs",
-    "TennisTest.cs",
+    "test_yahtzee.py",
+    "yahtzee.py",
     "instructions",
     "cyber-dojo.sh"
   ],
-  "filename_extension" : ".cs",
-  "display_name": "Behavior Driven Development workshop, 1 user stories",
+  "filename_extension" : ".py",
+  "display_name": "Embedded Device workshop, 4 rf communication",
 
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",
@@ -23,5 +20,5 @@
     "  return :amber",
     "}"
   ],
-  "image_name": "cyberdojofoundation/csharp_nunit"
+  "image_name": "cyberdojofoundation/python_unittest"
 }

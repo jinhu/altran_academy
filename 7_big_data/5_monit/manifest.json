@@ -6,7 +6,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".py",
-  "display_name": "Big Data workshop, 5 monitor",
+  "display_name": "7 Big Data workshop, 5 monitor",
 
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",

@@ -8,7 +8,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".cpp",
-  "display_name": "Connectivity workshop, 2 secure socket layer",
+  "display_name": "6 Connectivity workshop, 2 secure socket layer",
 
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",

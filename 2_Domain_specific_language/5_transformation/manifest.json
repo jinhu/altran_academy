@@ -6,7 +6,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".java",
-  "display_name": "Domain Specific Language workshop, 5 transformation",
+  "display_name": "2 Domain Specific Language workshop, 5 transformation",
      "progress_regexs": [     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",     "OK \\((\\d)+ test(s)?\\)"   ],    "red_amber_green" : [     "lambda { |output|",     "  return :red   if /^Tests run: (\\d*),(\\s)+Failures: (\\d*)/.match(output)",     "  return :green if /^OK \\((\\d*) test/.match(output)",     "  return :amber",     "}"   ],
   "image_name": "cyberdojofoundation/java_junit"
 }

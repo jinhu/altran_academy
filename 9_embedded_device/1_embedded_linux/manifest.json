@@ -6,7 +6,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".cs",
-  "display_name": "Embedded Device workshop, 1 embedded linux",
+  "display_name": "9 Embedded Device workshop, 1 embedded linux",
 
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",

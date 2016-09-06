@@ -1,17 +1,15 @@
 {
   "visible_filenames": [
-    "all_tests.hpp",
-    "all_tests.cpp",
-    "tennis1.cpp",
-    "tennis2.cpp",
-    "tennis3.cpp",
-    "tennis_suite.tests.cpp",
+    "TennisGame.cs",
+    "TennisGame1.cs",
+    "TennisGame2.cs",
+    "TennisGame3.cs",
+    "TennisTest.cs",
     "instructions",
-    "makefile",
     "cyber-dojo.sh"
   ],
-  "filename_extension" : ".cpp",
-  "display_name": "Behavior Driven Development workshop, 2 card",
+  "filename_extension" : ".cs",
+  "display_name": "3 Behavior Driven Development workshop, 1 user stories",
 
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",
@@ -25,5 +23,5 @@
     "  return :amber",
     "}"
   ],
-  "image_name": "cyberdojofoundation/gpp_assert"
+  "image_name": "cyberdojofoundation/csharp_nunit"
 }

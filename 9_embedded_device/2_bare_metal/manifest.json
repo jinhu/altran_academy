@@ -8,7 +8,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".cpp",
-  "display_name": "Embedded Device workshop, 2 bare metal",
+  "display_name": "9 Embedded Device workshop, 2 bare metal",
 
   "progress_regexs": [
     "Tests run\\: (\\d)+,(\\s)+Failures\\: (\\d)+",
